@@ -16,9 +16,3 @@ WHAT CHANGED IN v2.1.2
 
 STATUS
 This is an in-development preview build from Fast Track Games / Sweitzer Ventures. Social Life, multiplayer, balance, artwork, interface elements, and other features will continue to evolve during development.
-
-
-DOWNLOAD LOCATION
-The public v2.1.2 build is hosted in the Fast Track Games Google Drive rather than in the GitHub Pages repository.
-File: https://drive.google.com/file/d/19uhClt_RfjYx9OOzKZFo2NeYWFxpbZXN/view?usp=drivesdk
-Public builds folder: https://drive.google.com/drive/folders/1ISa3_h83hRJH1Qis9YS7R-tzEwckQZaw?usp=sharing
