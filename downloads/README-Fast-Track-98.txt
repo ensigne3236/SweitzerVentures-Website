@@ -15,4 +15,4 @@ WHAT CHANGED IN v2.1.2
 - Preserved v2.1.1 Life Score/high scores and the existing financial, housing, vehicle, career, and CN&N systems.
 
 STATUS
-This is an in-development preview build from Fast Track Games / Sweitzer Ventures. Social Life, multiplayer, balance, artwork, interface elements, and other features will continue to evolve during development.
+This is an in-development preview build from Uncle Bear Studios / Sweitzer Ventures. Social Life, multiplayer, balance, artwork, interface elements, and other features will continue to evolve during development.

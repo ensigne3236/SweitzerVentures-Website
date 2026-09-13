@@ -311,7 +311,7 @@ footer { background: #070709; padding: 2rem 0; }
   .reveal { opacity: 1; transform: none; }
 }
 
-/* Fast Track Games */
+/* Uncle Bear Studios / Fast Track '98 */
 .games-page {
   --ft-blue: #3e78c7;
   --ft-blue-bright: #71b6ff;
@@ -339,8 +339,8 @@ footer { background: #070709; padding: 2rem 0; }
 .games-hero::after { content:""; position:absolute; inset:auto 0 0; height:1px; background:linear-gradient(90deg,transparent,var(--ft-blue-bright),var(--ft-yellow),transparent); opacity:.5; }
 .games-hero-grid { width:min(1320px,calc(100% - 2.5rem)); margin:0 auto; display:grid; grid-template-columns:.8fr 1.2fr; gap:4rem; align-items:center; position:relative; z-index:2; }
 .games-studio-label, .game-section-label { margin:0 0 1rem; color:var(--ft-yellow); font-size:.75rem; font-weight:900; text-transform:uppercase; letter-spacing:.18em; }
-.fast-track-games-logo { display:inline-block; margin-bottom:2rem; padding:.48rem .75rem .58rem; border:2px solid rgba(113,182,255,.48); background:linear-gradient(180deg,#182b48,#0c1627); box-shadow:5px 5px 0 #05070b, inset 0 0 0 1px rgba(255,255,255,.07); color:#f6f1df; font:900 clamp(1rem,1.7vw,1.35rem)/1 Tahoma,Verdana,sans-serif; font-style:italic; letter-spacing:.04em; transform:skew(-5deg); }
-.fast-track-games-logo span { color:var(--ft-yellow); }
+.uncle-bear-studios-logo { display:inline-block; margin-bottom:2rem; padding:.48rem .75rem .58rem; border:2px solid rgba(113,182,255,.48); background:linear-gradient(180deg,#182b48,#0c1627); box-shadow:5px 5px 0 #05070b, inset 0 0 0 1px rgba(255,255,255,.07); color:#f6f1df; font:900 clamp(1rem,1.7vw,1.35rem)/1 Tahoma,Verdana,sans-serif; font-style:italic; letter-spacing:.04em; transform:skew(-5deg); }
+.uncle-bear-studios-logo span { color:var(--ft-yellow); }
 .games-hero h1 { margin:0; font-size:clamp(3.5rem,6.8vw,7.1rem); line-height:.88; letter-spacing:-.065em; }
 .games-hero h1 span { color:var(--ft-yellow); }
 .games-hero-copy > p:not(.games-studio-label) { max-width:660px; color:#bcc7d7; font-size:clamp(1rem,1.45vw,1.18rem); }
@@ -444,7 +444,7 @@ footer { background: #070709; padding: 2rem 0; }
 @media (max-width:680px) {
   .games-hero-grid { width:min(100% - 1.5rem,1320px); }
   .games-hero h1 { font-size:clamp(3.2rem,15vw,5rem); }
-  .fast-track-games-logo { font-size:.92rem; }
+  .uncle-bear-studios-logo { font-size:.92rem; }
   .build-chips { width:100%; }
   .game-loop-grid, .feature-list-grid, .character-roster { grid-template-columns:1fr 1fr; }
   .game-loop-card, .feature-list-card { min-height:260px; }
