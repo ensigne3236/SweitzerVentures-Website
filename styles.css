@@ -137,8 +137,51 @@ nav a[aria-current="page"]::after { content: ""; position: absolute; left: 0; ri
 .system-step small { color: var(--muted); font-size: .88rem; line-height: 1.5; }
 .system-line { width: 1px; height: 20px; background: linear-gradient(var(--gold), transparent); margin-left: 20px; }
 /* FireWatch Sentinel BRDG milestone */
+/* Dedicated project page */
+.fw-intro { padding: 135px 0 55px; background: radial-gradient(circle at 80% 20%, rgba(216,167,58,.14), transparent 40%), var(--bg); }
+.fw-intro-grid { display: grid; grid-template-columns: 1fr 220px; gap: 4rem; align-items: center; }
+.fw-intro h1 { font-size: clamp(3rem, 7vw, 6rem); line-height: .98; letter-spacing: -.055em; margin: 0; }
+.fw-intro h1 span { color: var(--gold-bright); }
+.fw-intro .hero-lead { margin-top: 1.5rem; }
+.fw-logo-panel { padding: 1.5rem; background: var(--cream); border-radius: .3rem; }
+.fw-logo-panel img { width: 100%; height: auto; }
+.fw-milestone { color: var(--gold-bright); font-weight: 800; margin: 1.5rem 0 0; }
+.fw-milestone span { color: var(--muted); font-size: .9rem; font-weight: 500; }
+.fw-film-section { padding: 0 0 4rem; }
+.fw-film-section h2 { font-size: clamp(1.8rem, 3.5vw, 3rem); line-height: 1.15; margin: 0; letter-spacing: -.035em; }
+.fw-section-lead { color: var(--muted); max-width: 850px; }
+.fw-film-section video { width: 100%; display: block; aspect-ratio: 16 / 9; height: auto; background: #000; margin-top: 1.5rem; }
+.fw-film-section .project-note { margin-top: 2rem; }
+.fw-sensing, .fw-team { background: var(--bg-soft); }
+.fw-explainer { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center; padding: 3rem 0; border-top: 1px solid var(--line); }
+.fw-explainer figure, .fw-team figure { margin: 0; }
+.fw-explainer img, .fw-team img { width: 100%; height: auto; border: 1px solid var(--line); }
+.fw-explainer figcaption, .fw-team figcaption { font-size: .82rem; color: var(--muted); margin-top: .7rem; }
+.fw-explainer h3 { font-size: clamp(1.8rem, 3vw, 2.6rem); line-height: 1.1; letter-spacing: -.025em; margin: 0 0 1.3rem; }
+.fw-explainer p:not(.section-label), .fw-team p { color: var(--muted); }
+.fw-explainer-reverse figure { order: 2; }
+.fw-impact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.fw-impact-grid article { padding: 2rem; border: 1px solid var(--line); background: var(--panel); }
+.fw-impact-grid article > span { color: var(--gold-bright); text-transform: uppercase; font-size: .72rem; letter-spacing: .09em; font-weight: 800; }
+.fw-impact-grid h3 { font-size: 1.6rem; line-height: 1.15; margin: 1.8rem 0 1rem; }
+.fw-impact-grid p { color: var(--muted); margin: 0; }
+.fw-impact .project-note { margin-top: 2.5rem; }
+.fw-team-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
+.fw-team-list { padding: 0; list-style: none; margin: 2rem 0; }
+.fw-team-list li + li { margin-top: 1rem; }
+.fw-team-list span { display: block; color: var(--muted); font-size: .9rem; }
+.fw-team h3 { font-size: 1.2rem; margin-bottom: .5rem; }
+@media (max-width: 980px) { .fw-impact-grid { grid-template-columns: repeat(2, 1fr); } .fw-explainer, .fw-team-grid { gap: 2rem; } }
+@media (max-width: 680px) {
+  .fw-intro { padding-top: 115px; }
+  .fw-intro-grid, .fw-explainer, .fw-team-grid, .fw-impact-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .fw-logo-panel { width: 120px; padding: .8rem; }
+  .fw-explainer-reverse figure { order: 0; }
+  .fw-explainer { padding: 2rem 0; }
+}
 #firewatch, #firewatch-film { scroll-margin-top: 100px; }
 .firewatch-feature { gap: 2.5rem; }
+.fw-home-button { margin-top: 1.5rem; gap: .6rem; }
 .firewatch-feature > * { min-width: 0; }
 .firewatch-award { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1.2rem; }
 .firewatch-award strong { color: var(--gold-bright); font-size: 1.5rem; }
