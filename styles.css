@@ -136,6 +136,32 @@ nav a[aria-current="page"]::after { content: ""; position: absolute; left: 0; ri
 .system-step strong { font-size: 1.05rem; }
 .system-step small { color: var(--muted); font-size: .88rem; line-height: 1.5; }
 .system-line { width: 1px; height: 20px; background: linear-gradient(var(--gold), transparent); margin-left: 20px; }
+/* FireWatch Sentinel BRDG milestone */
+#firewatch, #firewatch-film { scroll-margin-top: 100px; }
+.firewatch-feature { gap: 2.5rem; }
+.firewatch-feature > * { min-width: 0; }
+.firewatch-award { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1.2rem; }
+.firewatch-award strong { color: var(--gold-bright); font-size: 1.5rem; }
+.firewatch-award span { color: var(--muted); }
+.firewatch-victory { margin: 0; align-self: center; }
+.firewatch-victory img { width: 100%; height: auto; border: 1px solid var(--line); }
+.firewatch-victory figcaption { padding-top: .7rem; color: var(--muted); font-size: .85rem; }
+.firewatch-story { display: grid; grid-template-columns: 130px 1fr; gap: 1.5rem; align-items: start; }
+.firewatch-identity { padding: 1rem; background: var(--cream); border-radius: .3rem; }
+.firewatch-identity img { width: 100%; height: auto; }
+.firewatch-feature h4 { margin: 0 0 .8rem; font-size: 1.5rem; line-height: 1.2; letter-spacing: -.025em; }
+.firewatch-credits, .firewatch-film { grid-column: 1 / -1; border-top: 1px solid var(--line); padding-top: 2.5rem; }
+.firewatch-credits { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; }
+.firewatch-credits ul { padding: 0; margin: 0; list-style: none; }
+.firewatch-credits li + li { margin-top: 1rem; }
+.firewatch-credits li span { display: block; color: var(--muted); font-size: .9rem; }
+.firewatch-credits p, .firewatch-film > p:not(.section-label) { color: var(--muted); }
+.firewatch-credits strong { color: var(--text); }
+.firewatch-film video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; background: #000; margin-top: 1.5rem; }
+@media (max-width: 680px) {
+  .firewatch-story, .firewatch-credits { grid-template-columns: 1fr; }
+  .firewatch-identity { width: 130px; }
+}
 .endeavor-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1rem; }
 .endeavor-card { padding: 2rem; min-height: 275px; border: 1px solid var(--line); background: rgba(255,255,255,.025); }
 .card-number, .endeavor-card > span, .goal-card > span, .topic-card > span { color: var(--gold); font-size: .75rem; font-weight: 900; letter-spacing: .12em; }
